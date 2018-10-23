@@ -8,6 +8,7 @@ echo "Rocky Moreno CST336 home page!!!";
 
 ?>
 
+
 hello from the index.php
 </body>
 </html>
