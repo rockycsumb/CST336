@@ -8,6 +8,14 @@ echo "Rocky Moreno CST336 home page!!!";
 
 ?>
 
+<!--
+<script type="text/javascript">
+ document.write("Hello World. Today is " + Date() );
+</script>
+-->
+
+<script type="text/javascript">document.write("hi from javascript today is " + Date());
+</script>
 
 hello from the index.php
 </body>
