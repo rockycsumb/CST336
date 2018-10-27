@@ -55,7 +55,7 @@ body {
  #webVR_image {
     float: left;
 }
- #spacer {
+ .spacer {
     height: 20px;
     clear: left;
 }
