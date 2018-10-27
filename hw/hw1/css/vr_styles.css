@@ -1,0 +1,83 @@
+body {
+    background-color: #538487;
+}
+ header {
+    background-color: #f47142;
+    /*text-align: center;*/
+    color: #342d3a;
+    height: 100px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+ header h1 {
+    font-size: 4em;
+}
+ header, nav, footer {
+    text-align: center;
+}
+ nav {
+    background-color: #bab19c;
+}
+ nav a {  /* links in nav container */
+    padding: 0px 25px 0px 25px;
+    font-size: 1.2em;
+    text-decoration: none; /*removes underline*/
+    color: white; /*default links are blue*/
+}
+ nav a:hover {
+    border-left: 1.5px #342d3a solid;
+    border-right: 1.5px #342d3a solid;
+    font-size: 1em;
+    transition: .5s; /*animatin effect*/
+}
+ #current_status {
+    border-left: 1.5px #342d3a solid;
+    border-right: 1.5px #342d3a solid;
+    font-size: 1em;
+}
+ #content {
+    background-color: #538487;
+}
+ img {
+    border-style: solid;
+    border-color: white;
+}
+ #vr_image, #vr_text {
+    float: left;
+}
+ #vr_text {
+    margin-top: 5px;
+    color: white;
+}
+ #ar_image {
+    float: left;
+}
+ #webVR_image {
+    float: left;
+}
+ #spacer {
+    height: 20px;
+    clear: left;
+}
+ div a {
+    color: white;
+    margin-top: 10px;
+}
+ div #paragraph {
+    width: 200px;
+}
+ footer {
+    clear: left;
+}
+ pre {
+    margin: 0px;
+    padding: 0px;
+}
+ footer, #vr_text, pre, nav {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+ h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
