@@ -35,7 +35,7 @@ body {
     border-right: 1.5px #342d3a solid;
     font-size: 1em;
 }
- #content {
+ .content {
     background-color: #538487;
 }
  img {
