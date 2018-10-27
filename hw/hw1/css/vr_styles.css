@@ -37,6 +37,7 @@ body {
 }
  .content {
     background-color: #538487;
+    
 }
  img {
     border-style: solid;
@@ -84,4 +85,6 @@ body {
 
 section {
     color: white;
+    margin-left: 40px;
+    padding: 0px;
 }
