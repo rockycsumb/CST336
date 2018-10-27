@@ -73,11 +73,15 @@ body {
     margin: 0px;
     padding: 0px;
 }
- footer, #vr_text, pre, nav {
+ footer, #vr_text, pre, nav, h5 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
  h1 {
     font-family: 'Lato', sans-serif;
     font-weight: 900;
+}
+
+section {
+    color: white;
 }
