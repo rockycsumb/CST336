@@ -42,10 +42,10 @@ body {
     border-style: solid;
     border-color: white;
 }
- #vr_image, #vr_text {
+ .vr_image, .vr_text {
     float: left;
 }
- #vr_text {
+ .vr_text {
     margin-top: 5px;
     color: white;
 }
@@ -63,7 +63,7 @@ body {
     color: white;
     margin-top: 10px;
 }
- div #paragraph {
+ div .paragraph {
     width: 200px;
 }
  footer {
@@ -73,7 +73,7 @@ body {
     margin: 0px;
     padding: 0px;
 }
- footer, #vr_text, pre, nav, h5 {
+ footer, .vr_text, pre, nav, h5 {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
