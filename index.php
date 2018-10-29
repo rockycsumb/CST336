@@ -1,22 +1,21 @@
-<html><body>
+<html>
+    <body>
 <?php
 // A simple web site in Cloud9 that runs through Apache
 // Press the 'Run' button on the top to start the web server,
 // then click the URL that is emitted to the Output tab of the console
 
-echo "Rocky Moreno CST336 home page!!!";
+    echo "Rocky Moreno CST336 home page!!!";
 
 ?>
+<br>
 
-<!--
-<script type="text/javascript">
- document.write("Hello World. Today is " + Date() );
-</script>
--->
+<a href="https://romoreno-cst336.herokuapp.com/CST336/labs/lab1/index.html">Lab 1 Personal Portfolio</a>
+<br><br>
 
-<script type="text/javascript">document.write("hi from javascript today is " + Date());
-</script>
+<a href="https://romoreno-cst336.herokuapp.com/CST336/labs/lab2/index.php">Lab 2 Slot Machine</a>
+<br><br>
 
-hello from the index.php
+
 </body>
 </html>
