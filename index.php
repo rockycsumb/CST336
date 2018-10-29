@@ -10,7 +10,7 @@
 ?>
 <br>
 
-<a href="https://romoreno-cst336.herokuapp.com/labs/lab1/index.html">Lab 1 Personal Portfolio</a>
+<a href="https://romoreno-cst336.herokuapp.com/labs/lab1/PersonalPortfolio/index.html">Lab 1 Personal Portfolio</a>
 <br><br>
 
 <a href="https://romoreno-cst336.herokuapp.com/labs/lab2/index.php">Lab 2 Slot Machine</a>
