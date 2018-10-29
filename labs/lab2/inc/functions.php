@@ -6,7 +6,7 @@ function play()
         
             for ($index = 1; $index < 4; $index++)
             {
-                ${"randomValue" . $index } = rand(0,1);
+                ${"randomValue" . $index } = rand(0,3);
                 displaySymbol(${"randomValue" . $index}, $index);
             }
             displayPoints($randomValue1, $randomValue2, $randomValue3);
