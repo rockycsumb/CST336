@@ -1,0 +1,90 @@
+body {
+        background-color: black;
+        /*background-image:url("../img/bg7.jpg");*/
+        color: black;
+        
+    }
+
+#main {
+        /*font-family: 'Baloo Bhaina', cursive;*/
+        font-family: 'Bubblegum Sans', cursive;
+        background-image:url("../img/paperbackground.png");
+        width:600px;
+        height:500px;
+        position:relative;
+        margin:0 auto;
+    }
+    
+#userButtons0, #userButtons1, #userButtons2 {
+        top: 167px;
+        position: absolute;
+        padding: 0;
+        border: none;
+        background: none;
+    }
+    
+    #userButtons0 {
+        left: 90px;
+    }
+    
+    #userButtons1 {
+        left: 130px;
+    }
+    
+    #userButtons2 {
+        left: 160px;
+    }
+#userSelect {
+        top: 110px;
+        left: 55px;
+        position: absolute;
+    }
+    #showUserChoice {
+        top: 190px;
+        left: 95px;
+        position: absolute;
+    
+    }
+    #imageShowUserChoice {
+        left: 110px;
+        top: 250px;
+        position: absolute;
+    }
+    
+#compChoice {
+    top: 100px;
+    position: absolute;
+    left: 300px;
+}
+    #enemyTitle {
+        top: 110px;
+        left: 285px;
+        position: absolute;
+    }
+    #smallganondorfface {
+        top: 160px;
+        left: 285px;
+        position: absolute;
+    }
+    
+    #showCompChoice {
+        top: 190px;
+        left:240px;
+        position: absolute;
+    }
+    #imageShowCompChoice {
+        top: 245px;
+        left:275px;
+        position: absolute;
+    }
+#result {
+    top:335px;
+    left: 195px;
+    position: absolute;
+}
+
+#blurp {
+    top:360px;
+    left: 170px;
+    position: absolute;
+}
