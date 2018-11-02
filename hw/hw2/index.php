@@ -7,7 +7,7 @@ include 'inc/functions.php';
 <!DOCTYPE html>
 <html>
     <head>
-        <title> Roshambo </title>
+        <title> Rock-Map-Sword </title>
         <style>
             @import url("css/styles.css");
         </style>

@@ -22,7 +22,7 @@ function defaultPage()
 
 function userChoices()
 {
-    $objectChoice = array("rock", "paper", "scissors");
+    $objectChoice = array("rock", "map", "sword");
     $imageFiles = array("smallrock.png", "smallmap.png", "smallsword.png");
     
     echo "<h3 id='userSelect'>Select An Attack</h3> <br>";
@@ -58,10 +58,10 @@ function computerChoice()
             $compChoice = "rock";
             break;
         case 1:
-            $compChoice = "paper";
+            $compChoice = "map";
             break;
         case 2:
-            $compChoice = "scissors";
+            $compChoice = "sword";
             break;
     }
     return $compChoice;
@@ -82,15 +82,15 @@ function determineWinner($userChoice, $compChoice)
         $tie = true;
         return 'tie';
     }
-    else if($userChoice == "rock" && $compChoice == "scissors")
+    else if($userChoice == "rock" && $compChoice == "sword")
     {
         echo"<h2 id='result'>You Win!</h2>";
     }
-    else if($userChoice == "paper" && $compChoice == "rock")
+    else if($userChoice == "map" && $compChoice == "rock")
     {
         echo"<h2 id='result'>You Win!</h2>";
     }
-    else if($userChoice == "scissors" && $compChoice == "paper")
+    else if($userChoice == "sword" && $compChoice == "map")
     {
         echo"<h2 id='result'>You Win!</h2>";
     }
@@ -134,7 +134,7 @@ function message($whoWon)
 
 function displayChoices($userChoice, $compChoice)
 {
-    $imageFileAssoc = array("rock"=>"bigrock.png", "paper"=>"bigmap.png", "scissors"=>"bigsword.png");
+    $imageFileAssoc = array("rock"=>"bigrock.png", "map"=>"bigmap.png", "sword"=>"bigsword.png");
     
     
     
