@@ -1,6 +1,10 @@
 body {
         background-color: black;
         /*background-image:url("../img/bg7.jpg");*/
+        
+        background-image: url("../img/gamebackground.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
         color: black;
         
     }
@@ -14,6 +18,9 @@ body {
         position:relative;
         margin:0 auto;
     }
+#test {
+    color: white;
+}
     
 #userButtons0, #userButtons1, #userButtons2 {
         top: 167px;

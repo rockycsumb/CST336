@@ -15,7 +15,7 @@ include 'inc/functions.php';
     </head>
     
     <body>
-        
+    
     <div id="main"> 
      <!--<h1>Rock-Map-Sword</h1> -->
     

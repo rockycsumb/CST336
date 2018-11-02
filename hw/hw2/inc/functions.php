@@ -25,6 +25,8 @@ function userChoices()
     $objectChoice = array("rock", "map", "sword");
     $imageFiles = array("smallrock.png", "smallmap.png", "smallsword.png");
     
+    
+    
     echo "<h3 id='userSelect'>Select An Attack</h3> <br>";
     echo "<h3 id='enemyTitle'>Enemy</h3> <br>";
     echo "<img id='smallganondorfface' src='img/smallganondorfface.png' />";
@@ -32,7 +34,7 @@ function userChoices()
     echo '<form action="index2.php" method="POST">';
 
 
-    for ($index = 0; $index < 3; $index++)
+    for ($index = 0; $index < count($objectChoice); $index++)
     {
         echo "<button id='userButtons$index' type='submit' name='choice' value ='$objectChoice[$index]'><img src='img/$imageFiles[$index]' ></button><br>";
     }
@@ -118,6 +120,17 @@ function message($whoWon)
 {
     $userWonBlurp = array("Good Attack!", "Hit Successful!", "Enemy Defeated!");
     $userLostBlurp = array("Ouchh! That Hurt", "Losing Strength", "Help Me!");
+    
+    sort($userWonBlurp);
+    rsort($userLostBlurp);
+    
+    //Testing Array Sort functions
+    /**
+    for ($index = 0; $index < count($userWonBlurp);$index++)
+    {
+        echo "<h3 id='test'>$userWonBlurp[$index]</h3><br>";
+    }
+    **/
     
     if($whoWon == "userWins" && $whoWon != "tie")
     {
