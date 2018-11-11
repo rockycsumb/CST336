@@ -1,0 +1,36 @@
+body {
+        background-color: #FEE05F;
+        background-image: url("../img/bgImage.jpg");
+        
+        /*background-image: url("../img/gamebackground.gif");*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: black;
+        
+    }
+    
+#main {
+        /*font-family: 'Baloo Bhaina', cursive;*/
+        font-family: 'KoHo', sans-serif;
+        background-color: white;
+        width:600px;
+        /*height:500px;*/
+        position:relative;
+        margin:0 auto;
+        padding: 10px;
+        border-color: brown;
+        border-style: double;
+    }
+    
+#selected {
+    color: brown;
+}
+    
+h1 {
+    font-size: 3em;
+    color: #D45521;
+}
+
+p {
+    font-weight: bold;
+}
