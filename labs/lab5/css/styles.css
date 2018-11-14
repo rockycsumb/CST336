@@ -1,6 +1,7 @@
 body {
         background-color: black;
         color: black;
+        font-family: 'Lato', sans-serif;
 }
 
 #main {
@@ -31,4 +32,9 @@ input[type=text] {
     border-color: grey;
     border-width: thin;
     padding: 5px;
+}
+
+#showResults
+{
+ color: white;   
 }

@@ -155,6 +155,8 @@ function displaySearchResults()
         </div>
         
         <hr>
+        <div id="showResults">
         <?= displaySearchResults() ?>
+        </div>
     </body>
 </html>
