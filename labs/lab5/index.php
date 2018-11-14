@@ -43,9 +43,9 @@ function displaySearchResults()
         
         if (!empty($_GET['product']))
         {
-            echo $_GET['product'] . "<br> from product text search";
+            //echo $_GET['product'] . "<br> from product text search";
             
-            $sql .= " AND productDescription LIKE :productDescription";
+            $sql .= " OR productDescription LIKE :productDescription";
             $namedParameters[":productDescription"] = "%" . $_GET['product'] . "%";
         }
         
@@ -114,12 +114,15 @@ function displaySearchResults()
         <title>Ottermart Product Search</title>
         <meta charset="UTF-8">
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        
     </head>
     
     <body>
         
-        <div>
-             <h1> Ottermart Product Sarch </h1>
+        <div id="main">
+             <h1> Ottermart Product Search </h1>
+             <div id="formObjects">
              <form>
                  Product: <input type="text" name="product" />
                  
@@ -134,16 +137,17 @@ function displaySearchResults()
                  Price: From <input type="text" name="priceFrom" size="7">
                          To <input type="text" name="priceTo" size="7">
                  <br />
-                 
+                 <div id="orderBy">
                  Order result by: 
                  <br />
                  <input type="radio" name="orderBy" value="price" />Price <br>
                  <input type="radio" name="orderBy" value="name" />Name <br>
-                 
+                 </div>
                  <br />
                  <input type="submit" value="Search" name="searchForm" />
                  <br />
              </form>
+             </div>
              
              <br>
              
