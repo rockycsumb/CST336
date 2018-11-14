@@ -39,6 +39,18 @@ function displaySearchResults()
             $namedParameters[":productName"] = "%" . $_GET['product'] . "%";
         }
         
+        
+        
+        if (!empty($_GET['product']))
+        {
+            echo $_GET['product'] . "<br> from product text search";
+            
+            $sql .= " AND productDescription LIKE :productDescription";
+            $namedParameters[":productDescription"] = "%" . $_GET['product'] . "%";
+        }
+        
+        
+        
         if (!empty($_GET['category']))
         {
             $sql .= " AND catId LIKE :categoryId";
@@ -90,7 +102,7 @@ function displaySearchResults()
     }
     else
     {
-        echo'notset';
+        //echo'notset';
     }
 }
 
