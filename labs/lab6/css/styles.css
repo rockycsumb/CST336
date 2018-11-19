@@ -1,0 +1,22 @@
+#main {
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: center;
+
+}
+
+#title {
+    margin-bottom: 20px;
+    border-bottom: solid;
+    border-bottom-width: thin;
+    border-bottom-color: grey;
+    padding-bottom: 10px;
+}
+
+#productUpdate {
+    color:red;
+
+}
+
+#loginCred {
+    margin: 5px;
+}
