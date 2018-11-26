@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>Shooting Monkeys</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script language="javascript" type="text/javascript" src="engine.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=KoHo" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+	</head>
+	<body onload="init()">
+		<div id="gameWindow">
+			<h1 id="winOrLose"></h1>
+			<div id="monkey_01" class="monkey" onmousedown="hitMonkey()"></div>
+		</div>
+		
+		<div id="output" style="color: white; padding: 20px;"></div>
+	</body>
+</html>
+
