@@ -1,6 +1,6 @@
 <?php
 
-function getDatabaseConnection($dbname = "heroku_74152a32ba521c4"){
+function getDatabaseConnection($dbname = "finalProject"){
     //C9 db info
     
     $host = 'localhost';
@@ -15,6 +15,7 @@ function getDatabaseConnection($dbname = "heroku_74152a32ba521c4"){
         $username = $url["user"];
         $password = $url["pass"];
     } 
+
 
     //creates db connection
     $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
